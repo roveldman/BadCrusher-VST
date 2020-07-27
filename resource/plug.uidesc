@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vstgui-ui-description version="1">
+	<fonts>
+		<font font-name="Century Gothic" name="Big" size="32"/>
+		<font font-name="Bahnschrift" name="Small" size="12"/>
+	</fonts>
+	<colors>
+		<color name="Pink" rgba="#cf9697ff"/>
+	</colors>
+	<template background-color="~ WhiteCColor" background-color-draw-style="filled and stroked" class="CViewContainer" mouse-enabled="true" name="view" opacity="1" origin="0, 0" size="300, 230" transparent="false" wants-focus="false">
+		<view bitmap="numbers" class="CView" mouse-enabled="true" opacity="0.4125" origin="0, 0" size="300, 230" transparent="false" wants-focus="false"/>
+		<view back-color="~ TransparentCColor" background-offset="0, 0" class="CTextLabel" default-value="0.5" font="Small" font-antialias="true" font-color="~ BlackCColor" frame-color="~ TransparentCColor" frame-width="1" max-value="1" min-value="0" mouse-enabled="true" opacity="1" origin="0, 90" round-rect-radius="6" shadow-color="~ RedCColor" size="80, 20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" text-alignment="right" text-inset="0, 0" text-rotation="0" text-shadow-offset="1, 1" title="Crush" transparent="false" value-precision="2" wants-focus="false" wheel-inc-value="0.1"/>
+		<view back-color="~ TransparentCColor" background-offset="0, 0" class="CTextLabel" default-value="0.5" font="Small" font-antialias="true" font-color="~ BlackCColor" frame-color="~ TransparentCColor" frame-width="1" max-value="1" min-value="0" mouse-enabled="true" opacity="1" origin="0, 140" round-rect-radius="6" shadow-color="~ RedCColor" size="80, 20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" text-alignment="right" text-inset="0, 0" text-rotation="0" text-shadow-offset="1, 1" title="Dirt" transparent="false" value-precision="2" wants-focus="false" wheel-inc-value="0.1"/>
+		<view bitmap-offset="0, 0" class="CSlider" control-tag="Parameter1" default-value="0.5" draw-back="true" draw-back-color="~ WhiteCColor" draw-frame="true" draw-frame-color="~ TransparentCColor" draw-value="true" draw-value-color="~ MagentaCColor" draw-value-from-center="false" draw-value-inverted="false" frame-width="1" handle-offset="0, 0" max-value="1" min-value="0" mode="use global" mouse-enabled="true" opacity="1" orientation="horizontal" origin="90, 80" reverse-orientation="false" size="160, 40" transparent="false" wants-focus="true" wheel-inc-value="0.1" zoom-factor="10"/>
+		<view bitmap-offset="0, 0" class="CSlider" control-tag="Parameter2" default-value="0.5" draw-back="true" draw-back-color="~ WhiteCColor" draw-frame="true" draw-frame-color="~ TransparentCColor" draw-value="true" draw-value-color="Pink" draw-value-from-center="false" draw-value-inverted="false" frame-width="1" handle-offset="0, 0" max-value="1" min-value="0" mode="use global" mouse-enabled="true" opacity="1" orientation="horizontal" origin="90, 130" reverse-orientation="false" size="160, 40" transparent="false" wants-focus="true" wheel-inc-value="0.1" zoom-factor="10"/>
+		<view back-color="~ TransparentCColor" background-offset="0, 0" class="CTextLabel" default-value="0.5" font="Small" font-antialias="true" font-color="~ BlackCColor" frame-color="~ TransparentCColor" frame-width="1" max-value="1" min-value="0" mouse-enabled="true" opacity="1" origin="90, 170" round-rect-radius="6" shadow-color="~ RedCColor" size="50, 20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" text-alignment="left" text-inset="0, 0" text-rotation="0" text-shadow-offset="1, 1" title="0" transparent="false" value-precision="2" wants-focus="false" wheel-inc-value="0.1"/>
+		<view back-color="~ WhiteCColor" background-offset="0, 0" class="CTextLabel" default-value="0.5" font="Big" font-antialias="true" font-color="~ BlackCColor" frame-color="~ TransparentCColor" frame-width="1" max-value="1" min-value="0" mouse-enabled="true" opacity="1" origin="0, 0" round-rect-radius="12" shadow-color="~ TransparentCColor" size="300, 60" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="true" text-alignment="center" text-inset="0, 0" text-rotation="0" text-shadow-offset="1, 1" title="Bad Crusher" transparent="false" value-precision="2" wants-focus="false" wheel-inc-value="0.1"/>
+		<view back-color="~ TransparentCColor" background-offset="0, 0" class="CTextLabel" default-value="0.5" font="Small" font-antialias="true" font-color="~ BlackCColor" frame-color="~ TransparentCColor" frame-width="1" max-value="1" min-value="0" mouse-enabled="true" opacity="1" origin="170, 170" round-rect-radius="6" shadow-color="~ RedCColor" size="80, 20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" text-alignment="right" text-inset="0, 0" text-rotation="0" text-shadow-offset="1, 1" title="100" transparent="false" value-precision="2" wants-focus="false" wheel-inc-value="0.1"/>
+		<view back-color="~ TransparentCColor" background-offset="0, 0" class="CTextLabel" default-value="0.5" font="Small" font-antialias="true" font-color="~ GreyCColor" frame-color="~ TransparentCColor" frame-width="1" max-value="1" min-value="0" mouse-enabled="true" opacity="1" origin="100, 200" round-rect-radius="6" shadow-color="~ RedCColor" size="110, 20" style-3D-in="false" style-3D-out="false" style-no-draw="false" style-no-frame="false" style-no-text="false" style-round-rect="false" style-shadow-text="false" text-alignment="left" text-inset="0, 0" text-rotation="0" text-shadow-offset="1, 1" title="2020, moderngravel" transparent="false" value-precision="2" wants-focus="false" wheel-inc-value="0.1"/>
+	</template>
+	<custom>
+		<attributes name="FocusDrawing"/>
+		<attributes Path="C:\Users\user\vstdev\my_plugins\badcrusher\resource\plug.uidesc" name="VST3Editor"/>
+		<attributes Grids="1x 1,5x 5,10x 10,12x 12,15x 15" name="UIGridController"/>
+		<attributes SelectedTemplate="view" name="UITemplateController"/>
+		<attributes EditViewScale="1" EditorSize="0, 0, 526, 712" SplitViewSize_0_0="0.810495626822157477775476763781625777483" SplitViewSize_0_1="0.16034985422740524740881085108412662521" SplitViewSize_1_0="0.4941690962099125616902028923504985868931" SplitViewSize_1_1="0.4985422740524781404225507230876246467233" SplitViewSize_2_0="0.6368821292775664888452524792228359729052" SplitViewSize_2_1="0.3536121673003802534651640598895028233528" TabSwitchValue="2" Version="1" name="UIEditController"/>
+		<attributes name="UIAttributesController"/>
+		<attributes SelectedRow="29" name="UIViewCreatorDataSource"/>
+		<attributes SelectedRow="0" name="UIFontsDataSource"/>
+		<attributes SelectedRow="0" name="UIBitmapsDataSource"/>
+		<attributes SelectedRow="0" name="UIColorsDataSource"/>
+	</custom>
+	<bitmaps>
+		<bitmap name="numbers" path="numbers.png"/>
+	</bitmaps>
+	<control-tags>
+		<control-tag name="Bypass" tag="100"/>
+		<control-tag name="Parameter1" tag="102"/>
+		<control-tag name="Parameter2" tag="1000"/>
+	</control-tags>
+</vstgui-ui-description>
