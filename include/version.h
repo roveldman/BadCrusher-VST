@@ -18,7 +18,7 @@
 
 #define VERSION_STR MAJOR_VERSION_STR "." SUB_VERSION_STR "." RELEASE_NUMBER_STR
 
-#define stringPluginName		"Bad Crusher"
+#define stringPluginName		"BadCrusher"
 
 #define stringOriginalFilename	"badcrusher.vst3"
 #if SMTG_PLATFORM_64
